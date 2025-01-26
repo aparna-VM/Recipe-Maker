@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .menu-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 100px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu-button {
+        background: #d65108;
+        color: white;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .menu-button.kerala {
+        background: #d65108;
+    }
+
+    .menu-button.diet {  /* New diet button style */
+        background: #4CAF50;  /* Green color for health/diet theme */
+    }
+
+    .menu-button.kids-friendly {
+        background: #FF4081;
+    }
+
+    .menu-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    .menu-button.kerala:hover {
+        background: #e65d0f;
+    }
+
+    .menu-button.diet:hover {  /* Diet button hover */
+        background: #45a049;
+    }
+
+    .menu-button.kids-friendly:hover {
+        background: #f50057;
+    }
+
+    .menu-button i {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 1200px) {
+        .menu-container {
+            padding: 20px 50px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .menu-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="meal-wrapper">
+      <div class="meal-search">
+        <div class="menu-container">
+            <a href="kerala-recipes.html" class="menu-button kerala">
+                <i class="fas fa-utensils"></i>
+                Kerala Food Recipes
+            </a>
+            
+            <a href="diet-recipes.html" class="menu-button diet">
+                <i class="fas fa-leaf"></i>
+                Diet Friendly Recipes
+            </a>
+            
+            <a href="kids-recipes.html" class="menu-button kids-friendly">
+                <i class="fas fa-child"></i>
+                Kids Friendly Recipes
+            </a>
+        </div>
+        <h2 class="title">Find Meals For Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <cite>- Jamie Oliver</cite>
+        </blockquote>
+
+        <div class="meal-search-box">
+          <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input">
+          <button type="submit" class="search-btn btn" id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title">Your Search Results:</h2>
+        <div id="meal"></div>
+      </div>
+
+      <div class="meal-details">
+        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-details-content"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

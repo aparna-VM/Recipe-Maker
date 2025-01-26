@@ -49,15 +49,20 @@ go live
 For Software:[ONLINE RECIPE MAKER.pptx](https://github.com/user-attachments/files/18548942/ONLINE.RECIPE.MAKER.pptx)
 
 # Screenshots (Add at least 3)
-[index](https://github.com/user-attachments/assets/a2f17736-e9ca-4c6f-af42-14e3570a5fc5)
+[index](https://github.com/user-attachments/assets/a2f17736-e9ca-4c6f-af42-14e3570a5fc5)  
+The Index consists of ingredient-based searching and option to navigate into dietary food,kids food and kerala recipe.
 
 [recipes based on ingredient](https://github.com/user-attachments/assets/d50b7ca6-88e0-425a-92d8-bcb6ac03e83a)
+If we search a recipe based on any ingredient the corresponding recipes are shown.
 
 [Kerala recipes](https://github.com/user-attachments/assets/c0e3a83b-40ea-48de-a191-659eb25ded83)
+we can find authentic kerala dishes.
 
 [Diet friendly recipes](https://github.com/user-attachments/assets/e7474683-c8f5-430f-a165-b7c1e8c02660)
+There are many healthy food options for people following diet.
 
 [Kids friendly recipes](https://github.com/user-attachments/assets/2e9b3733-3429-4afb-a621-2b494320dcc5)
+many attractive recipes for kids
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -88,7 +93,7 @@ For Hardware:
 ### Project Demo
 # Video
 https://github.com/user-attachments/assets/9e64cd0d-87e7-4614-94db-0560fb4cbd8e
-on searching based on ingredients matching recipes are enlisted
+on searching based on ingredients matching recipes are enlisted and there are options for finding diet friendly food,kids friendly food and kerala recipes.
 
 
 # Additional Demos

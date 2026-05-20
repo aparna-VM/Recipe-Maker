@@ -99,10 +99,7 @@ on searching based on ingredients matching recipes are enlisted and there are op
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Members
-- BHAVYASREE P 
-- APARNA M
-- DEVIKA PP
+
 
 ---
 Made with ❤️ at TinkerHub

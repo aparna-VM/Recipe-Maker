@@ -99,10 +99,10 @@ on searching based on ingredients matching recipes are enlisted and there are op
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Contributions
-- BHAVYASREE P :Backend
-- APARNA M: Database,PPT
-- DEVIKA PP: Frontend
+## Team Members
+- BHAVYASREE P 
+- APARNA M
+- DEVIKA PP
 
 ---
 Made with ❤️ at TinkerHub
